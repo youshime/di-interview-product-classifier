@@ -32,7 +32,7 @@ and the response should look like this:
 ```json
 {
     "title": "my product title containing aquarelle",
-    "top_5_results": [
+    "top_3_results": [
         {
             "product_type": "painting",
             "score": 0.xxxx
@@ -43,14 +43,6 @@ and the response should look like this:
         },
         {
             "product_type": "diving_suit",
-            "score": 0.xxxx
-        },
-        {
-            "product_type": "stone",
-            "score": 0.xxxx
-        },
-        {
-            "product_type": "wig",
             "score": 0.xxxx
         }
     ],
